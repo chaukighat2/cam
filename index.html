@@ -4,26 +4,7 @@
     <title>Delta Meet</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<style>
-        div.select {
-            display: inline-block;
-            margin: 0 0 1em 0;
-            position: fixed;
-        }
-
-        p.small {
-            font-size: 0.7em;
-        }
-
-        label {
-            width: 12em;
-            display: inline-block;
-        }
-    </style>
 <body>
-    <div class="select">
-        <label for="videoSource">Video source: </label><select id="videoSource"></select>
-    </div>
     <p id="notification" hidden></p>
     <div class="entry-modal" id="entry-modal">
         <p>Create or Join Meeting</p>
@@ -39,10 +20,6 @@
 
         <!-- Local Video Element-->
         <video id="local-video"></video>
-        <div class="meet-controls-bar">
-            <div class="select" style="margin-top:200px">
-	<label for="videoSource">Video source: </label><select id="videoSource"></select>
-  </div>
         </div>
     </div>
 </body>
